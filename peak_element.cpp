@@ -15,7 +15,7 @@ int BinarySearh(int arr[7])
         {
             e = mid;
         }
-        mid = s + (e + s) / 2;
+        mid = s + (e - s) / 2;
     }
     return arr[s];
 }
