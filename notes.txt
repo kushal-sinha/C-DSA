@@ -3,4 +3,4 @@ single element -> odd , even approch
 sorted and rotated array -> find which part is sorted and then apply the search accordingly
                             if the elements are same then you need to skip those duplicate elements
                             by doing s++ , e--
-painter partition , book allocation                  
+painter partition , book allocation problem                  
