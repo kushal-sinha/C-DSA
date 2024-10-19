@@ -17,7 +17,7 @@ bool ispossiblesolution(int arr[], int n, int days, int mid)
             left++;
             if (left > days || arr[i] > mid)
             {
-                return false;
+                return true;
             }
             weightsum = arr[i];
         }
