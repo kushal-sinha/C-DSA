@@ -22,7 +22,7 @@ bool ispossiblesolution(int arr[], int n, int days, int mid)
             weightsum = arr[i];
         }
     }
-    return true;
+    return false;
 }
 
 int main()
